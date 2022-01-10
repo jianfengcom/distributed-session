@@ -4,3 +4,9 @@ GET http://localhost:8080/user/login?username=阿吉&password=123
 GET http://localhost:8080/user/info
 
 ###
+GET http://localhost:8080/user/token/login?username=阿彩&password=2333
+
+###
+GET http://localhost:8080/user/token/info?token=token_924b12d9-f25c-492d-9bd3-59d5e5d16655
+
+###
