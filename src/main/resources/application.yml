@@ -1,0 +1,10 @@
+spring:
+  redis:
+    host: localhost
+    port: 6379
+    # password: redis
+  session:
+    store-type: redis
+    timeout: 3600
+    redis:
+      namespace: login_user
