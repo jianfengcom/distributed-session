@@ -1,0 +1,8 @@
+--1.根据端口号查程序的进程号
+netstat -ano | findstr 占用的端口号
+
+--2.根据程序的进程号查看具体的程序名称
+tasklist | findstr 进程号
+
+--3.强制、递归 删除本程序及其子进程
+taskkill -f -t -im 进程名(java.exe)
